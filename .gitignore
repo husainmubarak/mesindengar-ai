@@ -42,6 +42,10 @@ desktop.ini
 # Generated data
 ai-engine/data/processed/
 
+#archives dataset
+*.zip
+*.tar.gz
+
 # Temporary files
 *.tmp
 *.bak
