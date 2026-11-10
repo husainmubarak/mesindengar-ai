@@ -1,0 +1,47 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model checkpoints and generated weights
+*.pt
+*.pth
+*.onnx
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Generated audio
+*.wav
+*.mp3
+*.flac
+
+# Generated data
+ai-engine/data/processed/
+
+# Temporary files
+*.tmp
+*.bak
