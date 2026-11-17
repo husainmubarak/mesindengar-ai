@@ -36,17 +36,14 @@ if not normal_files or not anomaly_files:
         "File normal atau anomaly tidak ditemukan."
     )
 
-normal_path = normal_files[0]
+normal_path = normal_files[10]
 
 # Mencari pasangan anomaly dengan section dan nomor yang sama
 expected_anomaly = DATA_DIR / normal_path.name.replace(
     "_normal_", "_anomaly_"
 )
 
-if expected_anomaly.exists():
-    anomaly_path = expected_anomaly
-else:
-    anomaly_path = anomaly_files[0]
+anomaly_path = expected_anomaly
 
 
 # 3. Fungsi untuk menghasilkan Mel Spectrogram
