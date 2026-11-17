@@ -36,7 +36,7 @@ if not normal_files or not anomaly_files:
         "File normal atau anomaly tidak ditemukan."
     )
 
-normal_path = normal_files[10]
+normal_path = normal_files[40]
 
 # Mencari pasangan anomaly dengan section dan nomor yang sama
 expected_anomaly = DATA_DIR / normal_path.name.replace(
